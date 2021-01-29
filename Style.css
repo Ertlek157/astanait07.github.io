@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+    }
+body{
+    font-family: 'Oxanium', cursive;
+}
+nav ul{
+    list-style-type: none ;
+    display: none;
+
+}
+nav ul a{
+    display: block;
+    background:#0d1317 ;
+    padding: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#ad343e;
+    transition: color 1s ease,background 1s ease
+    ,padding 1s ease;
+    opacity: 0.8;
+
+}
+nav ul a:hover{
+    background:#474747 ;
+    color: #e0e0ce;
+    padding-left:30px;
+}
